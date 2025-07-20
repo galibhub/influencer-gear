@@ -1,3 +1,10 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
 .nav-main {
     display: flex;
     justify-content: space-between;
@@ -138,7 +145,7 @@ a i {
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
-    height: 476px;
+    height: auto;
     max-width: 329px;
     width: 100%;
     border-radius: 5px;
@@ -169,6 +176,7 @@ a i {
 
 .ratings i {
     color: rgb(251, 130, 0);
+    padding: 0;
 }
 
 .value {
@@ -229,4 +237,37 @@ a i {
     width: 155px;
     
 
+}
+
+
+/*footer */
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0826;
+    width: 100%;
+    line-height: 25px;
+}
+.footer-title
+{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.copyright
+{
+    color:white;
+    text-align: center;
+    margin-top:0;
+    font-weight: 300;
+}
+
+span i
+{
+    color: white;
+    padding:10px;
 }
