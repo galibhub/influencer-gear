@@ -187,3 +187,46 @@ a i {
 {
     padding-top:20px;
 }
+
+/*Featured product */
+.featured-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 1200px;
+    margin: 10px auto;
+}
+.featured-image
+{
+    height: 270px;
+    width: auto;
+    border-radius: 5px;
+}
+.featured-title
+{
+  color: #0A0826;
+  font-size: 38px;
+  font-weight: bold;
+}
+.featured-description
+{
+ color: #6C6C6C;
+ font-size: 16px;
+ font-weight: bold;
+
+ 
+}
+.btn-featured
+{
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    padding:12px;
+    border-radius:10px;
+    border: none;
+    height: 44px;
+    width: 155px;
+    
+
+}
