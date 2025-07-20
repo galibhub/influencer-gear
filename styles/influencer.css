@@ -28,7 +28,7 @@ li a {
 a i {
     width: 19px;
     height: 19px;
-   
+
     padding-top: 8px;
 }
 
@@ -40,8 +40,7 @@ a i {
 
 
 /** main section start */
-.start
-{
+.start {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,42 +48,142 @@ a i {
     margin: 50px auto;
 
 }
-.start-image
-{
+
+.start-image {
     background-image: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
     height: 475px;
     width: 475px;
 }
-.main-image
-{   position: relative;
+
+.main-image {
+    position: relative;
     height: 414px;
     width: 440px;
-    top: 20px;
+    top: 25px;
     left: 20px;
-    
+    right: 25px;
+    bottom: 30px;
+
 }
-.journey-title
-{
+
+.journey-title {
     font-size: 52px;
     font-weight: bold;
     color: #3A3A3A;
 
 }
-.journey-description
-{
+
+.journey-description {
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
 }
-.btn-preebook
-{
+
+.btn-preebook {
     background-color: #E02C6D;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 20px;
     border-radius: 41px;
-    border:none;
+    border: none;
     height: 44px;
     width: 196px;
     text-align: center;
+
+}
+
+/* e-commerce logo */
+.e-commerce-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.logo {
+    height: 40px;
+    width: 84px;
+
+
+}
+
+
+/* popular collection */
+.popular-collection
+{
+    text-align: center;
+    width: 1200px;
+    margin: 60px auto;
+}
+.collection-title
+{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.carts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+     justify-items: center;
+}
+
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    height: 476px;
+    max-width: 329px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0;
+    
+
+
+}
+
+.cart-image {
+    height: 256px;
+    width: 100%;
+    height: auto;
+}
+
+.image-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(24, 25, 31);
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.ratings i {
+    color: rgb(251, 130, 0);
+}
+
+.value {
+    color: rgb(94, 99, 102);
+    font-weight: 700;
+    padding: 5px 13px;
+}
+
+.description {
+    color: rgb(94, 99, 102);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px;
+}
+.ratings
+{
+    padding-top:20px;
 }
