@@ -1,0 +1,90 @@
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    gap: 20px;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a i {
+    width: 19px;
+    height: 19px;
+   
+    padding-top: 8px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+
+/** main section start */
+.start
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    margin: 50px auto;
+
+}
+.start-image
+{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 475px;
+}
+.main-image
+{   position: relative;
+    height: 414px;
+    width: 440px;
+    top: 20px;
+    left: 20px;
+    
+}
+.journey-title
+{
+    font-size: 52px;
+    font-weight: bold;
+    color: #3A3A3A;
+
+}
+.journey-description
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.btn-preebook
+{
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    padding: 20px;
+    border-radius: 41px;
+    border:none;
+    height: 44px;
+    width: 196px;
+    text-align: center;
+}
